@@ -26,7 +26,7 @@ public class Assignments1_Datatypes {
 		// 6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
 		double latitude = 37.7749;
 		double longitude = -122.4194;
-		System.out.println("Coordinates of a location: " + latitude + longitude);
+		System.out.println("Coordinates of a location: " + latitude + ","+ longitude);
 
 		// 7. Person's marital status: true or false
 		boolean status = false;
@@ -45,8 +45,8 @@ public class Assignments1_Datatypes {
 		System.out.println("Current year : " + Year);
 
 		// 11. Number of followers on a social media platform: 1,000,000
-		long number = 1000000l;
-		System.out.println("Number of followers on a social media platform: "+ number);
+		long number = 1_000_000l;
+		System.out.println("Number of followers on a social media platform: "+ String.format("%,d",number));
 		
 
 		// 12.Rating of a movie: 7.5
